@@ -1,0 +1,112 @@
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-item {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.modal-backdrop {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9 !important;
+}
+
+.modal-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end !important;
+    button {
+        margin: 5px !important;
+    }
+}
+
+.modal-header {
+    padding: 15px;
+
+    .modal-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: white !important;
+    }
+}
+
+.modal-body {
+    background-color: #1e1e2e;
+    p {
+        color: white !important;
+    }
+}
+
+.modal-header, .modal-footer {
+    background-color: #1e1e2e;
+    border: 0px;
+}
+
+#actionModal {
+    hr {
+        background-color: wheat;
+        height: 1px;
+        border: 0px;
+    }
+}
+
+#chooseAction {
+    hr {
+        background-color: wheat;
+        height: 1px;
+        border: 0px;
+    }
+}
+
+.modal.show .modal-dialog {
+    transform: unset;
+}
+
+.card label {
+    color: unset;
+}
+
+.datepicker {
+    display: block;
+    border-radius: 5px;
+    input {
+        color: white;
+    }
+    svg {
+        stroke: white;
+    }
+}
+
+.react-datetime-picker__wrapper {
+    background-color: #1e1e2e;
+    border-radius: 5px;
+    padding: 3px
+}
+
+.sidebar {
+    .nav-link {
+        p {
+            color: black;
+            font-weight: bold;
+        }
+        i {
+            color: black;
+        }
+    }
+}
+
+button {
+    color:rgb(0, 0, 0) !important;
+}
+
+.logo {
+    .simple-text {
+        color: black !important;
+        font-weight: bold !important;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
